@@ -123,7 +123,7 @@ class ElectrophysiologyBrowserIndex extends Component {
         type: 'select',
         options: options.projects,
       }},
-      {label: 'Visit Label', show: true, filter: {
+      {label: 'Vist Label', show: true, filter: {
         name: 'visitLabel',
         type: 'text',
       }},
