@@ -18,29 +18,17 @@
    Clicking on this task should take you to the BVL statistics page, with the stats filtered according to the user's
    site (or without any filter if the user has 'Across all sites access candidates profiles' permission).
    [Automate Test on Travis_CI]
-5. Verify that if a user has 'Across all sites create and edit users' and 'User management' permissions, the number of pending
-   account approvals is displayed in the My Task panel. This should be the number of entries in the User Account
-   page with the following Selection Filter: Site not set and Pending Approval set to 'Yes'. 
-   Check that you are taken to that page (with the Selection Filter correctly set) when you
-   click on the task.
-   [Automate Test on Travis_CI]
 6. Verify that if a user has 'Data entry' permission, the reports menu is displayed and the number of incomplete
    forms show in the tasks list.
    [Automate Test]
-7. Verify that the issue tracker panel is accessible if and only if a user has the 'issue_tracker_reporter'
-   or the 'issue_tracker_developer' permission.
-   [Automate Test on Travis_CI]
-8. Verify that if a user has 'User Management / Survey Participant Management' permission, the number of pending
-   account approvals is displayed in the My Task panel. This should be the number of entries in the User Account
-   page with the following Selection Filter: Site set to the user's site and Pending Approval set to 'Yes'. The
-   Site displayed will be 'All user sites'. Check that you are taken to that page (with the Selection Filter
-   correctly set) when you click on the task.
-   [Automate Test on Travis_CI]
 9. Verify that a user with 'Violated Scans: View all-sites Violated Scans' permission has a task with the number
    of violated scans displayed. This is the number of entries on the MRI Violated Scans page. The Site displayed will
    always be 'All'. Check that clicking on the task takes you to the Violated Scans page.
    [Automate Test on Travis_CI]
-10. Verify that if a user has the 'View and upload files in Document Repository' or 'Delete files in Document Repository'
+10. Verify that if a user has the 'View and upload files in Document Repository' or 'Delete files in Document Repository', the Document Repository Panel is displayed and that the last four uploads are shown.
+[Automate Test on Travis_CI]
+10. Check that clicking on the 'Document Repository' link at the bottom of the Document Repository Panel takes to you to the Document Repository page.
+[Automate Test on Travis_CI]
 11. Check that if a document notification occurred since the last login, it is labeled as 'New' in the Document
     Repository panel.
     [Automate Test]
