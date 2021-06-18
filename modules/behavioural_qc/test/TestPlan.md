@@ -11,7 +11,7 @@
 3. Remove the 'access all profiles' permission and test whether the site filter is 
 now populated only with sites that are study sites and to which the user has access.
 4. Make sure that the user accessible site data is only populated with the step 3 condition.
-5. Ensure that Conflict/Incomplete Candidate/Link to BVL Feedback links point to the correct place.
+5. Ensure that Incomplete Forms/Data Conflicts/BVL Feedback links point to the correct place.
 6. Ensure that feedback status is correct.
 7. Repeat steps 2-8 with applying all the filters.
 8. Perform a query that returns a row with a link to BVL feedback. Click on the click to edit the feedback QC
